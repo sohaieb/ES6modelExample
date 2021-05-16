@@ -1,0 +1,21 @@
+{
+  "name": "es6modelexample",
+  "version": "1.0.0",
+  "description": "This project is a simple demo of a structured ES6 template",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohaieb/ES6modelExample.git"
+  },
+  "author": "Sohaieb Azaiez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohaieb/ES6modelExample/issues"
+  },
+  "homepage": "https://github.com/sohaieb/ES6modelExample#readme"
+}

@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: row;
+}
+.container .nav {
+  height: 100px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 0.15fr 0.85fr;
+  grid-column-gap: 6px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.container .nav .logo {
+  height: 100px;
+  padding: 5px 20px;
+  /*display: block;*/
+  box-sizing: border-box;
+}
+.container .nav .logo img {
+  height: 100%;
+}
+.container .nav .other-parts {
+  width: 300px;
+}
+.container .nav .other-parts .btns-container {
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0;
+  margin: 0;
+}
+.container .nav .other-parts .btns-container .nav-btn {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.container .nav .other-parts .btns-container .nav-btn:hover {
+  transform: scale(1.2);
+}
+.container .content {
+  padding: 10px 5%;
+}
+.container .content .products-list {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 20px;
+}
+.container .content .products-list .product {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 5px;
+  grid-auto-flow: column;
+  height: 100px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+.container .content .products-list .product .product-infos {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 5px;
+}
+.container .content .products-list .product .product-infos .product-title {
+  font-weight: bold;
+  font-size: 1.03rem;
+}
+.container .content .products-list .product .product-infos .product-description, .container .content .products-list .product .product-infos .product-title {
+  margin: 0;
+  padding: 3px 4px;
+  box-sizing: border-box;
+}
+.container .content .products-list .product .product-img {
+  height: 100px;
+}
+
+/*# sourceMappingURL=index.css.map */
