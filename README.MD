@@ -2,12 +2,10 @@
 
 > This project is a simple demo of a structured ES6 template
 
-### 🏠 [Homepage](index.html)
-
 ## Install
 
 ```sh
-npm install # Important: this project should be run on a webserver!!
+Just run this project on a webserver , that's it !
 ```
 
 ## Author
@@ -20,3 +18,7 @@ npm install # Important: this project should be run on a webserver!!
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+## Important to mention
+
+We used **Google Logo** just for demonstration, not for commercial purposes.
